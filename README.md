@@ -12,12 +12,16 @@ CUDA_VISIBLE_DEVICES=0 llamafactory-cli export examples/merge_lora/llama3_lora_s
 ```
 
 ## Convert model to GGUF format to use it with ollama
+
+Tuto here
+https://github.com/ggerganov/llama.cpp/discussions/2948
+
+
 Install llama.cpp
 
 ```
 python convert-hf-to-gguf.py ../LLaMA-Factory/models/llama3_lora_sft/ --outfile test_make.gpuf
 ```
-with quantization
 
 ## install the GGUF file in ollama
 
